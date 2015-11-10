@@ -1,0 +1,20 @@
+{
+    "name": "soloproyectos-php/flash2html",
+    "description": "This class can convert HTML for Flash to regular HTML.",
+    "type": "php-library",
+    "license": "The MIT License (MIT)",
+    "authors": [
+        {
+            "name": "Gonzalo Chumillas",
+            "email": "gchumillas@email.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "soloproyectos\\": "src/"
+        }
+    }
+}
