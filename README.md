@@ -1,11 +1,9 @@
 # Flash2html
-This class can convert HTML for Flash to regular HTML.
+Transform HTML for Flash to standard HTML.
 
-Flash movies can render rich text using a markup language similar to HTML but it has some proprietary
-tags and attributes.
+Adobe Flash (AS3) supports a subset of html tags that can be used to enrich texts. But most of those tags do not meet the HTML5 standard. For example, the `<FONT />` tag is not a valid HTML5 tag.
 
-This class can convert rich text in that Flash markup language to regular HTML, so it can help migrating
-Flash movies to HTML based pages.
+This class allows us to migrate invalid tags to valid HTML5 tags.
 
 ## Example
 ```PHP
